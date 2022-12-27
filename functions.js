@@ -19,16 +19,26 @@ sum(2,3) // arguments
 
 // arrow function
 
-const sayMyName = () => {
-    console.log("Paulo")
+const sayMyName = (name) => {
+    console.log(name)
 }
 
-sayMyName()
+sayMyName("PH")
 
 // callback function
 
-sayMyNameAgain(
+sayMyName(
     () => {
         console.log('callback')
     }
 )
+
+// function constructor
+
+function Person(name) {
+    this.name = name
+}
+
+const ph = new Person("Paulo Henrique")
+
+console.log(ph)
