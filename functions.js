@@ -16,3 +16,19 @@ const sum = function(number1, number2){
 }
 
 sum(2,3) // arguments
+
+// arrow function
+
+const sayMyName = () => {
+    console.log("Paulo")
+}
+
+sayMyName()
+
+// callback function
+
+sayMyNameAgain(
+    () => {
+        console.log('callback')
+    }
+)
