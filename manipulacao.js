@@ -30,3 +30,10 @@ let phrase = "Teoria da Computação é incrível."
 
 let array = phrase.split(" ")
 console.log("Array de palavras: ", array)
+
+// join
+let phraseWithUnderscore = array.join("_")
+console.log(phraseWithUnderscore)
+
+let phraseWithSpaces = array.join(" ")
+console.log(phraseWithSpaces)
