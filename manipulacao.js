@@ -16,3 +16,11 @@ console.log(`${word} tem ${word.length} caracteres.`)
 let numero = 4.144444
 numero.toFixed(2)
 console.log(numero.toFixed(2).replace(".", ",")) // string
+
+// toUpperCase
+let palavra = "brasil"
+console.log(palavra.toUpperCase())
+
+// toLowerCase
+let substantivoComum = "GOVERNO"
+console.log(substantivoComum.toLowerCase())
