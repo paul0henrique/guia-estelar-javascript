@@ -16,3 +16,11 @@ console.log(myArray[0])
 let word = "Paulo"
 
 console.log(Array.from(word))
+
+// push
+
+let frutas = ['maçã', 'banana', 'abacaxi']
+
+frutas.push('goiaba')
+
+console.log(frutas)
