@@ -43,6 +43,10 @@ frutas.shift()
 
 console.log(frutas)
 
-// slice
+// slice: intervalo
 
 console.log(frutas.slice(0,1))
+
+// splice
+frutas.splice(0, 2)
+console.log(frutas)
