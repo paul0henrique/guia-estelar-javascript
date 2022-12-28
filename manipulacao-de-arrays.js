@@ -42,3 +42,7 @@ console.log(frutas)
 frutas.shift()
 
 console.log(frutas)
+
+// slice
+
+console.log(frutas.slice(0,1))
