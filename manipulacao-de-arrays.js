@@ -24,3 +24,9 @@ let frutas = ['maçã', 'banana', 'abacaxi']
 frutas.push('goiaba')
 
 console.log(frutas)
+
+// unshift
+
+frutas.unshift('mamão')
+
+console.log(frutas)
