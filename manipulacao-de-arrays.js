@@ -1,4 +1,5 @@
 // Array with constructor
+
 let myArray = new Array(1,2,3)
 console.log(myArray)
 
@@ -9,3 +10,9 @@ console.log(array)
 
 console.log(myArray.length)
 console.log(myArray[0])
+
+// Cadeia de caracteres em array
+
+let word = "Paulo"
+
+console.log(Array.from(word))
