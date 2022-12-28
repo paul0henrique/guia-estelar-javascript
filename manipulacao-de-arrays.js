@@ -17,7 +17,7 @@ let word = "Paulo"
 
 console.log(Array.from(word))
 
-// push
+// push: adiciona ao final
 
 let frutas = ['maçã', 'banana', 'abacaxi']
 
@@ -25,14 +25,20 @@ frutas.push('goiaba')
 
 console.log(frutas)
 
-// unshift
+// unshift: adiciona ao começo
 
 frutas.unshift('mamão')
 
 console.log(frutas)
 
-// pop
+// pop: remove do final
 
 frutas.pop()
+
+console.log(frutas)
+
+// shift: remove do começo
+
+frutas.shift()
 
 console.log(frutas)
