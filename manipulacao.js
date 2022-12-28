@@ -37,3 +37,7 @@ console.log(phraseWithUnderscore)
 
 let phraseWithSpaces = array.join(" ")
 console.log(phraseWithSpaces)
+
+// includes (case sensitive)
+console.log(phrase.includes("Teoria"))
+
