@@ -24,3 +24,9 @@ console.log(palavra.toUpperCase())
 // toLowerCase
 let substantivoComum = "GOVERNO"
 console.log(substantivoComum.toLowerCase())
+
+// split
+let phrase = "Teoria da Computação é incrível."
+
+let array = phrase.split(" ")
+console.log("Array de palavras: ", array)
