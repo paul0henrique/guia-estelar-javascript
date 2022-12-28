@@ -15,4 +15,4 @@ console.log(`${word} tem ${word.length} caracteres.`)
 // toFixed
 let numero = 4.144444
 numero.toFixed(2)
-console.log(numero.toFixed(2))
+console.log(numero.toFixed(2).replace(".", ",")) // string
