@@ -30,3 +30,9 @@ console.log(frutas)
 frutas.unshift('mamão')
 
 console.log(frutas)
+
+// pop
+
+frutas.pop()
+
+console.log(frutas)
