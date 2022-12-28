@@ -4,3 +4,8 @@ console.log(myArray)
 
 let array = new Array(5)
 console.log(array)
+
+// Contagem
+
+console.log(myArray.length)
+console.log(myArray[0])
