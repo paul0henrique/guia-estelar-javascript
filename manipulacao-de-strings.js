@@ -12,7 +12,7 @@ console.log(number)
 let word = "Computation"
 console.log(`${word} tem ${word.length} caracteres.`)
 
-// toFixed
+// toFixed and replace
 let numero = 4.144444
 numero.toFixed(2)
 console.log(numero.toFixed(2).replace(".", ",")) // string
