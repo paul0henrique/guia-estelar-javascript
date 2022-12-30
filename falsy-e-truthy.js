@@ -2,4 +2,4 @@
 // undefined, 0, null
 
 // truthy
-// [], {}, undefined
+// [], {}, undefined2
