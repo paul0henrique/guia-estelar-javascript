@@ -9,3 +9,11 @@
 
 // !== estritamente diferente
 // valor e tipo
+
+// > maior que
+
+// => maior ou igual
+
+// < menor que
+
+// <== menor ou igual
