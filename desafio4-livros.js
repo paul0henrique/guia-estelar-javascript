@@ -58,22 +58,22 @@ function contarAutores() {
     console.log("Total de autores: ", authors.length)
 }
 
-function contarLivrosAugustoCury() {
+function contarLivrosPorAutor(author) {
     let books = []
 
     for(let category of booksByCategory){
         for(let book of category.books){
-            if(book.author === "Augusto Cury") {
+            if(book.author === author) {
                 books.push(book.title)
             }
         }
     }
 
-    console.log("Total de livros do Augusto Cury: ", books.length)
+    console.log(`Total de livros de: ${author}`, books.length)
     for (let book of books) {
         console.log(book)
     }
 }
 
 contarAutores()
-contarLivrosAugustoCury()
+contarLivrosPorAutor("Augusto Cury")
