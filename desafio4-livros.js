@@ -70,6 +70,9 @@ function contarLivrosAugustoCury() {
     }
 
     console.log("Total de livros do Augusto Cury: ", books.length)
+    for (let book of books) {
+        console.log(book)
+    }
 }
 
 contarAutores()
