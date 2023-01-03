@@ -69,11 +69,10 @@ function contarLivrosPorAutor(author) {
         }
     }
 
-    console.log(`Total de livros de: ${author}`, books.length)
-    for (let book of books) {
-        console.log(book)
-    }
+    console.log(`Total de livros de ${author}: ${books.length}`)
+    console.log(`${books.join(", ")}`)
+
 }
 
 contarAutores()
-contarLivrosPorAutor("Augusto Cury")
+contarLivrosPorAutor("George S. Clason")
