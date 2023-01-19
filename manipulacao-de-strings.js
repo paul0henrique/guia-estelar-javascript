@@ -1,3 +1,5 @@
+// Estudo do métodos de manipulação de strings
+
 // String to number
 let string = "12"
 Number(string)
