@@ -1,3 +1,5 @@
+// Estudo dos métodos de manipulação de arrays
+
 // Array with constructor
 
 let myArray = new Array(1,2,3)
