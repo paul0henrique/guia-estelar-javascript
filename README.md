@@ -1,3 +1,3 @@
 # guia-estelar-javascript
 
-Javascript practises
+Javascript practises.
